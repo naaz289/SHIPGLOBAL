@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel with Fallback</title>
+    <link rel="stylesheet" href="carousel.css">
+</head>
+<body>
+
+<div class="carousel">
+    <div class="carousel-images">
+        <img src="C:\Users\DELL\Downloads\close-up-of-pink-flowering-plants-royalty-free-image-1709587708.avif" alt="Image 1" onerror="this.src='fallback.jpg'">
+        <img src="C:\Users\DELL\Downloads\endless-summer-blue-hydrangea-macrophylla-c38f20fe-da0331cb73c94b9db10b6bf74e098356.jpg" alt="Image 2" onerror="this.src='fallback.jpg'">
+        <img src="C:\Users\DELL\Downloads\rose.jpg" onerror="this.src='fallback.jpg'">
+        <img src="C:\Users\DELL\Downloads\flowers_name_in_english.jpg" alt="Image 4" onerror="this.src='fallback.jpg'">
+    </div>
+    <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+    <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+</div>
+
+<script src="carousel.js"></script>
+</body>
+</html>
